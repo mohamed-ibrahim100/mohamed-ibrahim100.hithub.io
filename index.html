@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>my first web application</title>
+</head>
+<p align = "middle">
+<img src= "100.png"  width="150" height="150" ><br><br>
+
+<font color ="blue" size ="+7" align ="middle">
+
+Welcome to 10000 coders programming challenge <br>
+</font>
+<font color ="black" font size = "+1" >
+<p align ="middle">
+
+Hello guys,<br>
+Welcome to the HTML/CSS programming exercise by 10000 coders.This will test your basics in HTML<br>
+and CSS.You need to recreate the document you are reading now using HTML/CSS.<u>Make sure that <BR>the page looks exactly like this document</u>
+</font><br><br>
+<font color ="blue" size = "+2" ><p align="left">
+General Instruction<br>
+</font></p>
+
+<p align = "right">
+<ol>
+  <li>Their will be a 15px margin between all elements in the form shown below</li>
+  <li>Use external CSS for styling</li>
+ <li> This exercise will cover the following constructs of HTML</li>
+</ol>
+<p align = "middle">
+<ul>
+ <li>HTML form</li>
+  <li>text input and placeholders</li>
+  <li>text area</li>
+   <li>password input</li>
+<li>select drop-down box</li>
+<li>radio buttons</li>
+<li>checkboxes and</li>
+<li>buttons</li>
+</ul>
+</p>
+
+
+First Name:
+<input type ="text" id="FirstName" name="First name" ><br><br>
+Secret pin:
+<input type ="text" name="secret pin"><br><br>
+Gender
+<label class="radio">
+    <input type="radio" name="answer">
+    male
+  </label>
+  <label class="radio">
+    <input type="radio" name="answer">
+    female<br><br>
+
+I am expert in 
+<input type="checkbox" name="vehicle" value="HTML"> HTML
+ <input type="checkbox" name="vehicle" value="CSS" checked> CSS<br><br>
+
+My field of study is
+<select name="course">
+  <option value="others">select your branch using select dropdown</option>
+  <option value="B.E.">B.E.</option>
+  <option value="undergraduate (Arts)">undergraduate (Arts)</option>
+  <option value="postgraduate (arts">postgraduate (arts)</option>
+</select><br><br>
+Tell more about yourself:
+<input style="height:100px;font-size:14pt;"><br><br>
+<input type="button" style="background-color:blue;color:white;width:150px;
+height:40px;" align = "left" value="submit form" onclick="getText()">
+</p>
+  </label>
+</form>
+</style>
+<script type="text/javascript">  
+function getText(){  
+var firstName=document.getElementById("FirstName").value;
+if(firstName=="")
+alert("First Name is missing");
+else
+alert(firstName);  
+}  
+</script> 
+</html>
